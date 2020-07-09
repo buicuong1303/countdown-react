@@ -22,19 +22,27 @@
       font-weight: bold;
       color: green;
       margin-left: 5px;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 1;
+      text-overflow: ellipsis;
+      height: 1.6rem;
+      display: -webkit-box;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      line-height: 1.6rem;
     }
   }
-  .quantity-item{
-      margin: 3px 0;
-      color: grey;
+  .quantity-item {
+    margin: 3px 0;
+    color: grey;
   }
-  .txt-panto{
-      margin-left: 5px;
-      color: orange;
-      font-weight: bold;
-      font-size: 14px;
+  .txt-panto {
+    margin-left: 5px;
+    color: orange;
+    font-weight: bold;
+    font-size: 14px;
   }
-  .txt-time{
+  .txt-time {
     margin-left: 5px;
     color: blue;
     font-weight: bold;
